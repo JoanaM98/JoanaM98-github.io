@@ -23,7 +23,8 @@ section{padding:7% 1%;}
 .col-md-4{display: flex;justify-content: center;}
 .col-lg-3{display: flex; justify-content: center;}
   body{font-size:18px;}
-  header{height: 70vh;}
+  header{height:800px;}
+  nav {padding-bottom:0;}
 }
 
 
