@@ -11,7 +11,7 @@ section{padding:5% 4%;}
 .social-nav{width:10%;}
 }
 
-@media only screen and (max-width:990px){
+@media only screen and (max-width:1100px){
 .interests-box{width:80%; font-size: 90%;margin: 15px 0;}
 .interests-box .box{width:70%;margin-left:15%;}
 .experience-box{display: block;width:80%; margin-left: 10%;flex-direction: column;}
@@ -23,6 +23,7 @@ section{padding:7% 1%;}
 .col-md-4{display: flex;justify-content: center;}
 .col-lg-3{display: flex; justify-content: center;}
 }
+
 
 
 @media only screen and (max-width:900px){
