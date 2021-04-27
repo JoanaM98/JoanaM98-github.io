@@ -17,5 +17,8 @@ $(".contacts-link").click(function(){
   $("html, body").animate({scrollTop:$("#contactos").offset().top},1000);
 })
 
-
+$(".menu-icon").click(function(){
+  $(".main-nav").toggleClass("visible");
+  $(".menu-icon").toggleClass("fa-bars").toggleClass("fa-times");
+})
 })
