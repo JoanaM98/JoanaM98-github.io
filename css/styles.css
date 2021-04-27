@@ -1,14 +1,12 @@
 /*
 font-family: 'Dancing Script', cursive;
 font-family: 'Montserrat', sans-serif;
-
 colors:
 #98DDCA
 #A1E6D3
 #D5ECC2
 #FFAAA7
 #FFC3C1
-
 */
 /***************************************************************/
 /* General */
@@ -25,6 +23,8 @@ body {
   font-weight: 400;
   color:#888;
   line-height: 140%;
+  width: 100%;
+  margin: 0;
 
 }
 
@@ -191,11 +191,22 @@ nav .row{margin-bottom:0; }
   margin-right: auto;
 }
 
+.menu{text-align: right;}
+.menu-icon{
+  font-size: 35px;
+  color:#fff;
+  position: relative;
+  bottom:10px;
+  display: none !important;
+}
 .main-nav li {
   display: inline-block;
   margin-left: 50px;
 }
 
+.visible{
+  display: inline-block !important;
+}
 .main-nav li a:link, .main-nav li a:visited {
   text-decoration: none;
   color: #fff;
