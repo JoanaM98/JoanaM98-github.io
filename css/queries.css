@@ -14,7 +14,7 @@ section{padding:5% 4%;}
 @media only screen and (max-width:1100px){
   .nav-row{padding-top: 0;}
   .main-nav li{display: block;border: none; font-size: 90%;}
-  .main-nav li a:hover{color:#afded8; border: none;}
+  .main-nav li a:hover{color:#afded8;text-decoration:underline; border: none;}
 .interests-box{width:80%; font-size: 90%;margin: 15px 0;}
 .interests-box .box{width:70%;margin-left:15%;}
 .experience-box{display: block;width:80%; margin-left: 10%;flex-direction: column;}
